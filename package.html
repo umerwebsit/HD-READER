@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+  	box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+	}
+	body{
+	  font-family: Verdana, Geneva, sans sarif;
+	}
+	a{
+	  text-decoration:none;
+	}
+	.nav-bar{
+	  background-color: black;
+	  width: 100%;
+	}
+	.nav-hold{
+	  display:block;
+	  width: 90%;
+	}
+	.nav-logo{
+	  float: left;
+	  display: block;
+	  padding: 30px 0px 20px 20px;
+	  font-weight: 600;
+	  color: yellow;
+	}
+	.nav-logo a{
+	  color: #f9f9f9;
+	}
+	.nav-items{
+	  float: right
+	}
+	.nav-items li{
+	  display:block;
+	  float: left;
+	  padding: 10px 20px;
+	  margin-left:10px;
+	}
+	.nav-items li a {
+	  color: yellow;
+	}
+	.nav-items li:hover {
+	  background-color:#9191AA;
+	  border-left:3px solid #CDCDD3;
+	  border-right:3px solid #CDCDD3;
+	}
+	.nav-hold{
+	  overflow:hidden;
+	}
+	.nav-menu{
+	  display: none;
+	}
+	/*media Queries*/
+	@media screen and (max-width: 768px){
+		.nav-menu{
+		  display: block;
+		  float: right;
+		  padding: 10px 20px;
+		  cursor: pointer;
+		  color: #fff;
+		}
+		.nav-items{
+		  width: 100%;
+		  float: left;
+		  height: 0px;
+		  padding:0px;
+		  margin:0px;
+		  
+		}
+		.nav-items li{
+		  width: 100%;
+		  display: block;
+		}  
+	}
+	.nav-open{
+		height: auto;
+	}
+	 img{
+		width: 100%;
+		height: 600px;
+		height: auto;
+		
+		display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+	}
+	img::before{
+		content:"";
+          background-image: url(umer2.webp);
+          background-repeat: no-repeat;
+          background-size: cover;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+        opacity: 0.35;
+          background-position: center;
+          position: absolute
+
+	}
+	
+	div ul h1{
+		color: yellow;
+		font-family: fantasy;
+	}
+    button {
+  width: 100%;
+  background-color:yellow;
+  color:black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+
+  width: 250px;
+  padding: 8%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  float: right;
+ 
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid orange;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: orange;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: orange;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid orange;
+  padding: 20px;
+  text-align: center;
+  color: orange;
+}
+
+.price .grey {
+  background-color:orange;
+  font-size: 20px;
+  color: blue;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color:orange;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+	
+    </style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-hold">
+          <div class="nav-logo">
+            <a href="#">HD READERS</a>
+          </div>
+          <div class="nav-menu" id="nav">&#9776;</div>
+              <ul class="nav-items">
+            <li><a href="#">Home</a>
+            <li><a href="contact.html">Contact</a>
+            <li><a href="#">About me</a>
+            <li><a href="#">services</a>
+          </ul>
+        </div>
+      </nav>
+      
+      <h1 style="text-align: center; color: yellow;">EXPERT ASSIGNMENT Service</h1>
+      
+        <div style="border: 2px solid; width: 250px; height: 250px; background-color: orange; color: white; border-color: blue;  justify-content: space-evenly;
+		align-items: center; display:inline-block; text-align: center;  margin: 10px; " >
+			<h1>Case Study Writing </h1>
+			<h4>Through appropriate analysis, case studies serve as a foundation for further research. ​ </h4>
+			<form action="form.html" target="_parent">
+          <button>Order</button>
+			</form>
+		</div>
+		<div style="border: 2px solid; width: 250px; height: 250px; background-color: orange; color: white; border-color: blue; justify-content: space-evenly;
+		align-items: center;text-align:center ; float: left; margin: 10px;">
+			<h1>Essay Writing </h1>
+			<h4>Writing essays may be a particularly challenging and demanding endeavour, especially when your grade is on the line.  ​ </h4>
+			<form action="form.html" target="_parent">
+          <button>Order</button>
+			</form>
+		</div>
+		<div style="border: 2px solid; width: 250px; height: 250px; background-color: orange; color: white; border-color: blue;justify-content: space-evenly;
+		align-items: center;text-align: center;float: left; margin: 10px; ">
+			<h1>Dissertation Help </h1>
+			<h4> Students complete a dissertation as a final endeavour for their whole academic career. Term widely used. ​ </h4>
+			<form action="form.html" target="_parent">
+          <button>Order</button>
+			</form>
+		</div>
+		<div style="border: 2px solid; width: 250px; height: 250px; background-color: orange; color: white;  border-color: blue;justify-content:space-evenly;
+		align-items: center; text-align: center;float: left; margin: 10px;">
+			<h1>Report Writing Help </h1>
+			<h4> ​A written document called a report gives readers a more precise understanding of its intended purpose.  </h4>
+			<form action="form.html" target="_parent">
+          <button>Order</button>
+			</form>
+            <h1>OUR PRICING PLAN</h1>
+            
+<div class="columns" style="float: left;">
+    <ul class="price">
+      <li class="header">SILVER</li>
+      <li class="grey">$ 250</li>
+      <li>5000 WORDS</li>
+      <li>Plagiarism REPORT</li>
+      <li>MULTIPLE ASSIGNMENT</li>
+      <li>6 MONTH PLAN</li>
+      <LI>MINIMUM 5 DAY Deadline</LI>
+      <form action="form.html" target="_parent">
+        <BUTTON>Order</BUTTON>
+      </form>
+    </ul>
+  </div>
+  
+  <div class="columns" style="float: left;">
+    <ul class="price">
+      <li class="header" style="background-color:#04AA6D">GOLD</li>
+      <li class="grey">$ 450 </li>
+      <li>8000 WORDS</li>
+      <li>Plagiarism REPORT</li>
+      <li>MULTIPLE ASSIGNMENT</li>
+      <li>12 MONTH PLAN</li>
+      <LI>MINIMUM 5 DAY Deadline</LI>
+      <form action="form.html" target="_parent">
+        <BUTTON>Order</BUTTON>
+      </form>
+    </ul>
+  </div>
+  
+  <div class="columns" style="float: left; ">
+    <ul class="price">
+      <li class="header">PLATINUM</li>
+      <li class="grey">$ 600</li>
+      <li>1200 WORDS</li>
+      <li>Plagiarism REPORT</li>
+      <li>MULTIPLE ASSIGNMENT</li>
+      <li>6 MONTH PLAN</li>
+      <form action="form.html" target="_parent">
+        <BUTTON>Order</BUTTON>
+      </form>
+    </ul>
+  </div>
+  
+
+</body>
+</html>
